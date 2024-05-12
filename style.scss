@@ -1,0 +1,113 @@
+$text1color: #9eb4a7;
+$linkcolor: #7D7D7D;
+$linkhovercolor: #03A9F4;
+$photoblogtitlecolor: #626262;
+$photoblogtext2color: #626262;
+$photoblogbuttoncolor: #626262;
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.photoblog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    row-gap: 130px;
+    column-gap: 60px;
+
+    &__card {
+        width: 30vw;
+
+        &--text1 {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: $text1color;
+        }
+    
+        &--title {
+            font-weight: 400;
+            font-size: 30px;
+            color: $photoblogtitlecolor;
+        }
+    
+        &--text2 {
+            font-weight: 400;
+            font-size: 14px;
+            color: $photoblogtext2color; 
+        }
+    }
+
+}
+.button{
+    font-weight: 400;
+    font-size: 14px;
+    width: 165px;
+    height: 60px;
+    color: $photoblogbuttoncolor;
+    background-color: white;
+    margin-left: 42.5%;
+}
+.container{
+    width: 1206px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container1{
+    width: 420px;
+    height: 546px;
+    padding: 0px 0px 0px 0px;
+}
+.container2{
+    width: 420px;
+    height: 546px;
+    padding: 0px 0px 0px 0px;
+}
+.container3{
+    width: 421px;
+    height: 516px;
+    padding: 0px 0px 0px 0px;
+}
+.container4{
+    width: 420px;
+    height: 516px;
+    padding: 0px 0px 0px 0px;
+}
+.container5{
+    width: 420px;
+    height: 516px;
+    padding: 0px 0px 0px 0px;
+}
+.container6{
+    width: 420px;
+    height: 516px;
+    padding: 0px 0px 0px 0px;
+}
+.header{
+    margin-bottom: 50px;
+
+
+    &__menu {
+        display: flex;
+        justify-content: space-around;
+
+        &--link {
+            font-weight: 400;
+            font-size: 14px; 
+            text-decoration: none;
+            color: $linkcolor;
+
+            &:hover {
+                color: $linkhovercolor;
+            }
+        }
+    }
+    
+}
