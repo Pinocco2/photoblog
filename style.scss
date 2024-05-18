@@ -29,18 +29,23 @@ body{
             font-weight: 300;
             font-size: 14px;
             color: $text1color;
+            margin-bottom: 45px;
         }
     
         &--title {
             font-weight: 400;
             font-size: 30px;
             color: $photoblogtitlecolor;
+            margin-bottom: 45px;
         }
     
         &--text2 {
             font-weight: 400;
             font-size: 14px;
             color: $photoblogtext2color; 
+        }
+        &--img {
+            margin-bottom: 45px;
         }
     }
 
@@ -53,45 +58,12 @@ body{
     color: $photoblogbuttoncolor;
     background-color: white;
     margin-left: 42.5%;
-}
-.container{
-    width: 1206px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container1{
-    width: 420px;
-    height: 546px;
-    padding: 0px 0px 0px 0px;
-}
-.container2{
-    width: 420px;
-    height: 546px;
-    padding: 0px 0px 0px 0px;
-}
-.container3{
-    width: 421px;
-    height: 516px;
-    padding: 0px 0px 0px 0px;
-}
-.container4{
-    width: 420px;
-    height: 516px;
-    padding: 0px 0px 0px 0px;
-}
-.container5{
-    width: 420px;
-    height: 516px;
-    padding: 0px 0px 0px 0px;
-}
-.container6{
-    width: 420px;
-    height: 516px;
-    padding: 0px 0px 0px 0px;
+    margin-top: 80px;
 }
 .header{
     margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 
 
     &__menu {
