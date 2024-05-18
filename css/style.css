@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.photoblog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  justify-content: center;
+  row-gap: 130px;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+.photoblog__card {
+  width: 30vw;
+}
+.photoblog__card--text1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #9eb4a7;
+  margin-bottom: 45px;
+}
+.photoblog__card--title {
+  font-weight: 400;
+  font-size: 30px;
+  color: #626262;
+  margin-bottom: 45px;
+}
+.photoblog__card--text2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
+.photoblog__card--img {
+  margin-bottom: 45px;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 14px;
+  width: 165px;
+  height: 60px;
+  color: #626262;
+  background-color: white;
+  margin-left: 42.5%;
+  margin-top: 80px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+}
+.header__menu--link {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: #7D7D7D;
+}
+.header__menu--link:hover {
+  color: #03A9F4;
+}
